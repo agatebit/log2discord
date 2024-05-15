@@ -1,0 +1,10 @@
+build==1.0.3
+certifi==2023.11.17
+charset-normalizer==3.3.2
+idna==3.6
+packaging==23.2
+pyproject_hooks==1.0.0
+requests==2.31.0
+ruamel.yaml==0.18.5
+tomli==2.0.1
+urllib3==2.2.0

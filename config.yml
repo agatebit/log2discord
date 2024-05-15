@@ -1,0 +1,6 @@
+---
+url: INSERT_URL_HERE
+filters:
+  units:
+    ssh: 1
+  priority: 3

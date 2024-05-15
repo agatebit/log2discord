@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  log2discord:
+    build:
+      context: .
+    volumes:
+      - ./config.yml:/config/config.yml
+      - ./config.yaml:/config/config.yaml
+      - /var/log/journal/:/var/log/journal/
+      - /dev/initctl:/dev/initctl
+      - /run/log/journal/run/log/journal
